@@ -5,8 +5,8 @@ function Hero() {
   return (
     <div>
         <div className="flex flex-row justify-between mt-5">
-        <h1 className=" font-bold text-heroorange text-3xl ml-5">SmartTravel</h1>
-        <p className="font-bold text-heroorange text-xl text-right mr-5">Visit our blog</p>
+        <h1 className=" font-bold text-heroorange text-3xl ml-10">SmartTravel</h1>
+        <p className="font-bold text-heroorange text-xl text-right mr-10">Visit our blog</p>
         </div>
         <div className="flex flex-row items-stretch justify-evenly">
             <div className="ml-5 space-y-8 mt-40">
@@ -18,7 +18,7 @@ function Hero() {
                 <div className="text-xl">
                     <p className="hero-text">Travel with confidence. Find the fares for all your trips to come. <br/>By bus. By cab. By train</p><br/>               
                 </div>
-                <div>
+                <div className="pb-10">
                 <button type='submit' className="bg-heroorange text-white text-lg font-semibold border-transparent rounded-full py-2 px-4 inline-flex items-center godown">
                     <TfiArrowCircleDown/>
                     <span className="ml-2">Find fare</span>
