@@ -6,10 +6,12 @@ function Hero() {
     <div>
         <div className="flex flex-row justify-between mt-5">
         <h1 className=" font-bold text-heroorange text-3xl ml-10">SmartTravel</h1>
-        <p className="font-bold text-heroorange text-xl text-right mr-10">Visit our blog</p>
+        <p className="font-bold text-heroorange text-xl text-right mr-10">
+            <a href="">Visit our blog</a>
+        </p>
         </div>
         <div className="flex flex-row items-stretch justify-evenly">
-            <div className="ml-5 space-y-8 mt-40">
+            <div className="ml-5 space-y-8 mt-36">
                 <div className="text-5xl">
                     <h2 className="font-semibold">Why use<br/><span className="font-bold text-heroorange">SmartTravel</span>?</h2>
                 </div>
@@ -25,8 +27,8 @@ function Hero() {
                 </button>
                 </div>
             </div>
-            <div className="h-16 w-1/2 mb-8">
-                <img src="src\assets\Bus Stop.gif"/>
+            <div className="h-72 w-2/5 mt-2">
+                <img src="src\assets\Bus Stop1.gif"/>
             </div>
         </div>
     </div>
