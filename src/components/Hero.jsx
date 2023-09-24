@@ -5,8 +5,8 @@ function Hero() {
   return (
     <div>
         <div className="flex flex-row justify-between mt-5">
-        <h1 className=" font-bold text-heroorange text-3xl ml-5">SmartTravel</h1>
-        <p className="font-bold text-heroorange text-xl text-right mr-5">Visit our blog</p>
+        <h1 className=" font-bold text-heroorange text-3xl ml-10">SmartTravel</h1>
+        <p className="font-bold text-heroorange text-xl text-right mr-10">Visit our blog</p>
         </div>
         <div className="flex flex-row items-stretch justify-evenly">
             <div className="ml-5 space-y-8 mt-40">
