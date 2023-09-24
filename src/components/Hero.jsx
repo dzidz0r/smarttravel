@@ -19,7 +19,7 @@ function Hero() {
                     <p className="hero-text">Travel with confidence. Find the fares for all your trips to come. <br/>By bus. By cab. By train</p><br/>               
                 </div>
                 <div>
-                <button type='submit' className="bg-heroorange text-white text-lg font-semibold border-transparent rounded-full py-2 px-4 inline-flex items-center godown">
+                <button type='submit' className="bg-orangejunior hover:bg-heroorange text-white text-lg  font-semibold border-transparent rounded-full py-2 px-4 inline-flex items-center godown">
                     <TfiArrowCircleDown/>
                     <span className="ml-2">Find fare</span>
                 </button>
