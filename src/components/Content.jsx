@@ -6,7 +6,7 @@ import { FaTaxi } from "react-icons/fa";
 const Content = () => {
     return (
         <div className="bg-orange font-poppins">
-            <h1 className="text-white text-5xl font-black text-center pt-8">Where to?</h1>
+            <h1 className="text-white text-5xl font-black text-center pt-5">Where to?</h1>
 
             <div className="flex flex-col items-center">
                 <input type="text" id="start" 
@@ -22,7 +22,7 @@ const Content = () => {
             </div>
 
             <div className="flex justify-center items-center">
-                <div className="font-poppins text-white flex flex-row items-center my-16">
+                <div className="font-poppins text-white flex flex-row items-center my-5">
 
                     <div className="flex flex-col pr-20">
                         <FaBus size={40}/>
